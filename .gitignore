@@ -1,0 +1,13 @@
+03-messages-api/config.php
+config.php
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite
+*.db

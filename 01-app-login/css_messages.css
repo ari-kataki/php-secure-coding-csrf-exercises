@@ -1,0 +1,39 @@
+.messages-container {
+    max-width: 500px;       /* larghezza massima del contenitore */
+    margin: 20px auto;      /* centrato orizzontalmente */
+    height: 400px;           /* altezza fissa */
+    overflow-y: auto;        /* scrollbar verticale se tanti messaggi */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.message-box {
+    background-color: #f0f0f0;  /* rettangolo grigio */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.message-box:nth-child(even) {
+    background-color: #e0e0e0; /* colore alternato */
+}
+
+.message-box .username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.message-box .text {
+    color: #333;
+}
+
+.message-box .date {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}

